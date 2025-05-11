@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Py's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+</head>
+<body>
+  <!-- Name at Top Left -->
+  <div class="top-left-name">PRIYANSHU YADAV</div>
+
+  <!-- Social Media Icons at Top Right -->
+  <div class="social-icons">
+    <a href="https://x.com/priyanshu26y"><img src="icons/x.png" alt="Twitter" /></a>
+    <a href="https://www.instagram.com/priyanshu_2602_y/"><img src="icons/i.png" alt="Instagram" /></a>
+    <a href="https://t.me/Priyanshu2602y"><img src="icons/t.png" alt="Telegram" /></a>
+    <a href="https://www.linkedin.com/in/priyanshu-yadav-7b932a224/"><img src="icons/l.png" alt="LinkedIn" /></a>
+    <a href="https://github.com/Py2603"><img src="icons/g.png" alt="GitHub" /></a>
+    <a href="https://open.spotify.com/user/zuvnjxih03vy1fv4pvj6eg3nm"><img src="icons/s.png" alt="Spotify" /></a>
+  </div>
+
+  <!-- Animation Container (Moved Left) -->
+  <div id="animation-container"></div>
+
+  <!-- Container for Profile and Info Section -->
+  <div class="container">
+    <!-- Profile Photo (Above Text) -->
+    <img src="me.jpg" alt="My Photo" class="profile-photo" />
+
+    <!-- Info Section -->
+    <div class="info-section">
+      <h1>Hello, I'm Py,</h1>
+      <h2 class="highlight">Software </br> Developer</h2>
+      <!-- About Me Section -->
+      <div class="about-me">
+        <h3>About Me</h3>
+        <p>
+          Passionate about creating efficient software solutions and
+          experimenting with C++ for web development. Currently working on a
+          portfolio of creative projects. I believe in constant learning and
+          improvement.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Animation Script -->
+  <script>
+    const animationContainer = document.getElementById("animation-container");
+    lottie.loadAnimation({
+      container: animationContainer,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      path: "Animation.json", // Your Lottie JSON file
+    });
+  </script>
+</body>
+</html>
+
