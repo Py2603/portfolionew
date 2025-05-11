@@ -7,33 +7,29 @@ body, html {
   background-color: #fdf6e4;
   font-family: 'Segoe UI', sans-serif;
   overflow: hidden;
-  height: 100%;
-  width: 100%;
 }
 
-/* Top Left Name */
+/* Top Left Name - PRIYANSHU YADAV */
 .top-left-name {
   position: absolute;
-  top: 2.5vh;
-  left: 5vw;
-  font-size: 4vw;
+  top: 20px;
+  left: 70px;
+  font-size: 70px;
   font-weight: bold;
   color: #333;
 }
 
-/* Social Icons at Top Right */
+/* Social Icons at Top Right - Bigger */
 .social-icons {
   position: absolute;
-  top: 4vh;
-  right: 5vw;
+  top: 55px;
+  right: 12cap;
 }
 
 .social-icons a img {
-  width: 2.5vw;
-  height: 2.5vw;
-  min-width: 30px;
-  min-height: 30px;
-  margin-left: 1vw;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
   transition: transform 0.3s;
 }
 
@@ -41,59 +37,72 @@ body, html {
   transform: scale(1.2);
 }
 
-/* Animation Container */
+/* Animation (Moved Left) */
 #animation-container {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 55vw;
-  height: 100vh;
+  top: 0%;
+  right: 56.5%;
+  width: 990px;
+  height: 990px;
   z-index: -1;
 }
 
-/* Profile Photo */
+/* Profile Photo (Above Text) */
 .profile-photo {
-  width: 12vw;
-  height: 12vw;
-  max-width: 180px;
-  max-height: 180px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid #dcd2ba;
   position: absolute;
-  top: 30%;
-  right: 8vw;
-  transform: translateY(-50%);
+  top: 20%;
+  left: 85%;
+  transform: translateX(-50%);
 }
 
 /* Info Section */
 .info-section {
   position: absolute;
-  top: 50%;
-  right: 8vw;
-  transform: translateY(-50%);
+  top: 37%;
+  left: 85%;
+  transform: translateX(-50%);
   max-width: 400px;
   text-align: center;
 }
 
-/* Headings */
+/* Headings and Subheadings */
 h1 {
-  font-size: 2rem;
+  font-size: 42px;
   margin-bottom: 5px;
 }
 
 .highlight {
   color: #1e40af;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 60px;
 }
+
+/* Resume Button .resume-btn {
+  background-color: #736d58;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}*/
 
 /* About Me Section */
 .about-me {
-  margin-top: -20px;
-  padding: 1rem;
+  margin-top: -40px;
+  padding: 15px;
+ 
   border-radius: 8px;
 }
+
+
+
 
 
 
